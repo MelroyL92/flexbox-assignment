@@ -1,1 +1,46 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.outer-col-1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+
+body header{
+    height: 150px;
+    width: calc(100vw - 300px)
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 150px);
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: calc(100vh - 150px);
+    width: calc(100vw - 600px);
+}
+
+.inner-col footer {
+    display: flex;
+    flex-basis: 150px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+*/

@@ -4,7 +4,6 @@
 .main-container-assignment-3{
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
     height: 100vh;
 }
 
