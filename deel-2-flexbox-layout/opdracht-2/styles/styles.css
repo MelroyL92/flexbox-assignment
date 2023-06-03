@@ -1,1 +1,48 @@
-/*Schrijf hier jouw CSS*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-container-assignment-2 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    flex-basis: 100vh;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vh - 200px);
+    height: 100vh;
+}
+
+.header-item {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc(100vw - 200px);
+}
+
+.article-item{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    width: calc(100vw - 200px);
+    flex-grow: 1;
+}
+
+.footer-item {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc(100vw - 200px);
+
+}
+
+nav {
+    width: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

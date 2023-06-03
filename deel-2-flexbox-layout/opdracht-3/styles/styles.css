@@ -1,1 +1,52 @@
-/*Schrijf hier jouw CSS*/
+
+
+
+.main-container-assignment-3{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    height: 100vh;
+}
+
+.col-1-assignment3 {
+    display: flex;
+    flex-direction: row;
+    flex-basis:200px;
+}
+
+.col-2-assignment3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 200px);
+}
+
+.container-within-another {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-within-another article{
+    display: flex;
+    flex-basis: 600px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: calc(100vh - 300px);
+}
+
+.container-within-another aside {
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+header {
+    display: flex;
+    height: 150px;
+}
+
+footer {
+    display: flex;
+    height: 150px;
+}
+
